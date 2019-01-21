@@ -1,9 +1,24 @@
 {
-  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
-  "schematics": {
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json", 
+  "schematics": {   
     "my-component": {
       "description": "A blank schematic.",
       "factory": "./my-component/index#myComponent"
     }
+  },
+  "my-custom-service": {
+    "description": "A service with boilerplate following company best practices",
+    "factory": "./my-custom-service",
+    "schema": "./my-custom-service/schema.json"
   }
+
+
+
+
+
+
+
+
+
+
 }
